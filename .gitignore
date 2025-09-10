@@ -208,4 +208,5 @@ __marimo__/
 
 # custom
 
-.secrets
+.secrets/
+binaries/

@@ -5,12 +5,16 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "faiss-cpu>=1.12.0",
     "google-generativeai>=0.8.5",
     "langchain>=0.3.27",
+    "langchain-community>=0.3.29",
     "langchain-google-genai>=2.0.10",
+    "langchain-text-splitters>=0.3.11",
     "langgraph>=0.6.7",
     "langsmith>=0.4.27",
     "pydantic>=2.11.7",
+    "pymupdf>=1.26.4",
 ]
 
 [dependency-groups]
